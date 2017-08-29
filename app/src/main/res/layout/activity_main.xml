@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.uu119632.activitycallbacktutorial.MainActivity">
+
+    <Button
+        android:id="@+id/activity_result_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/on_activity_result" />
+
+    <Button
+        android:id="@+id/key_down_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/on_key_down" />
+
+    <Button
+        android:id="@+id/on_touch_event_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/on_touch_event" />
+
+    <Button
+        android:id="@+id/window_focus_changed_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/on_window_focus_changed" />
+
+</LinearLayout>
