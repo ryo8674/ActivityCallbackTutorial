@@ -3,7 +3,7 @@
     <string name="on_activity_result">onActivityResult</string>
     <string name="on_key_down">onKeyDown</string>
     <string name="on_touch_event">onTouchEvent</string>
-    <string name="on_window_focus_changed">onWindowFocusChanged</string>
+    <string name="on_window_focus_changed">onWindow\nFocusChanged</string>
     <string name="screen_transition">画面遷移</string>
     <string name="return_button">Return</string>
 </resources>
